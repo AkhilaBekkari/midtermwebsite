@@ -1,0 +1,96 @@
+
+        *
+        {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family:sans-serif;
+          
+        }
+        div.container
+        {
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgb(37, 37, 3);
+        }
+        h2 {
+            font-size: 24px;
+            font-family:sans-serif;
+            color: #f7eaea;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 6px white, 0 0 30px blue, 0 0 10px darkblue;
+          }
+          h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            color: #eee2e2;
+            font-weight: 400;
+            margin-bottom: 30px;
+          }
+
+          nav
+          {
+              background-color: rgb(226, 15, 15); 
+              margin-top: 0;
+          }
+          ul{
+            text-align: right;
+          }
+          li{
+           display: inline-block;
+           width: 190px;
+           border: 1px solid white;
+           line-height: 3em;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: 1.5em;
+           text-align: center;
+           font-variant: small-caps;
+          }
+          a{
+              color: aliceblue;
+              text-decoration: none;
+              border: 1px solid red;
+              display: block;      
+          }
+        header
+        {
+           background-color: wheat;
+        }
+        div.aboutLeft,div.aboutRight
+        {
+            width:50%;
+            display: inline;
+        }
+        div.aboutRight
+        {
+            
+          float: right;
+          margin: 10px;
+          padding-right: 150px;
+        
+        }
+        #aboutImage
+        {
+            width: 700px;
+            height: 500px;
+            border-radius: 50%;
+            background: #ebf0e4;
+            margin:10px;
+            padding: 20px;
+        }
+    
+        .container-fluid {
+            padding: 60px 50px;
+          }
+          #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #center {
+            width: 450px;
+            margin: 0 auto;
+        }      
